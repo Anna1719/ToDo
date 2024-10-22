@@ -4,7 +4,7 @@ const taskList = document.getElementById('task-list');
 
 // Получаем задачи из localStorage
 function loadTasks() {
-    const tasks = JSON.parse(localStorage.getItem('tasks')) || [''];
+    const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
     tasks.forEach(task => {
         createTaskElement(task.text, task.checked);
     });
