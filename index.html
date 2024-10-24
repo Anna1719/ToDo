@@ -14,8 +14,13 @@
         <input type="text" id="input-text" placeholder="New task" />
         <button type="button" id="add-btn">Add</button>
       </div>
+      <select title="filter" id="filter-tasks">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="active">Active</option>
+      </select>
       <ul id="task-list"></ul>
     </div>
-    <script src="src/index.js"></script>
+    <script type="module" src="src/app.js"></script>
   </body>
 </html>

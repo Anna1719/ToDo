@@ -29,7 +29,7 @@ h1 {
 .input-form {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #input-text {
@@ -65,17 +65,18 @@ li {
     justify-content: space-between;
     align-items: center;
     border: solid #a0bedc 2px;
+    cursor: pointer;
 }
 
-li.checked {  
+li.checked {
     text-decoration: line-through;
-    color: #999;
+    color: #626262;
     background-color: #affbf6a5;
 }
 
 li button {
-    background-image: url("../assets/Delete.png") ;
-    background-repeat: no-repeat; 	
+    background-image: url("../assets/Delete.png");
+    background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
     min-height: 28px;
@@ -89,4 +90,8 @@ li button {
 
 li button:hover {
     background-color: #f7717fd4;
+}
+
+select {
+    margin-bottom: 10px;
 }
